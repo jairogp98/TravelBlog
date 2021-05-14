@@ -1,0 +1,50 @@
+
+.tittle{
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 20px;
+}
+
+.trip-container{
+
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+
+.trip-form{
+
+    margin: 10px;
+
+}
+
+.date{
+
+    width: 50%;
+}
+
+.add-button{
+
+    width: 20%;
+    height: 50px;
+    padding: 10px;
+
+}
+
+.add-button:hover{
+    cursor: pointer;
+}
+
+.submit-button{
+
+    width: 100%;
+
+}
+
+.photo{
+
+    background: #3c484d;
+}

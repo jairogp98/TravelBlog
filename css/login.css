@@ -1,0 +1,56 @@
+.wrapper{
+
+    min-height: 58vh;
+
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 70px;
+    background: rgba(0,0,0,.2);
+    padding: 10px;
+}
+
+.formulario h3{
+
+    align-self: center;
+    margin: 20px;
+}
+
+
+.forgot a{
+
+    text-decoration: none;
+    color: #292b2c;
+
+}
+
+.forgot a:hover{
+
+    opacity: .5;
+
+}
+
+.login-btn{
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+.forgot{
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.forgot .error-text{
+    
+    display: inline-block;
+    align-self: flex-end;
+    justify-self: flex-start;
+    margin-right: 40px;
+    margin-top: -10px;
+    color:red !important;
+}

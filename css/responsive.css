@@ -1,0 +1,276 @@
+@media screen and (max-width: 1024px) {
+
+    .first-container{
+
+        height: 60vh;
+
+    }
+
+    .content-container{
+
+        grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+        justify-content: center;
+        width: 100%;
+    }
+
+    .content{
+
+        width: 100%;
+
+    }
+
+}
+
+
+@media screen and (max-width: 930px) {
+
+    
+
+    
+    .form-container form{
+
+        width: 100% !important;
+
+    }
+
+
+    .content-container{
+
+        grid-template-columns: repeat(auto-fill, minmax(650px, 1fr));
+        justify-content: center;
+    }
+
+    .content{
+
+        max-width: 600px;
+
+    }
+
+}
+
+@media screen and (max-width: 767px){
+
+    .first-container{
+
+        height: 60vh;
+
+    }
+
+    .first-container p{
+
+        font-size: .9em;
+
+    }
+
+    h1{
+
+        font-size: 2em;
+
+    }
+
+    .third-container{
+
+        display: none;
+
+    }
+
+    .formulario{
+
+        width: 100%;
+
+    }
+}
+
+@media screen and (max-width: 622px){
+
+    /*------------MY-TRIPS-------------*/
+
+    .trips-container{
+
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+
+    }
+
+
+    /*-------------PROFILE--------------*/
+    .section-one{ 
+
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 100vh;
+    }
+
+    .one-about, .one-photo{
+
+        width: 100%;
+        margin: auto;
+    }
+
+    .two-grid-one{
+
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+
+    }
+
+    .three-social-container{
+
+        width: 100%;
+        
+    }
+
+    .three-social-container *{
+
+        
+        font-size: 1rem;
+    }
+
+    .social-content{
+        min-width: 300px;
+        text-align: center;
+        
+    }
+
+
+
+
+    /*-------------EDIT-PROFILE------------------*/
+    .photo-container, .about-container, .social-container{
+
+        width: 100%;
+
+    }
+
+    /*-------------------NEW-TRIP------------------*/
+
+   
+
+        .add-button{
+
+            width: 10em;
+            margin: auto;
+        }
+
+        .date{
+
+            width: 12em;
+            
+        }
+
+        .photo{
+
+            width: 100%;
+            padding: 1.5rem !important;
+        }
+
+        .trip-container{
+
+            width: 95%;
+
+        }
+
+        
+
+    /*---------------------TRIP----------------------*/
+
+    .img-container{
+
+        height: auto;
+
+    }
+
+    /*-----------------SEARCH-----------------------*/
+
+    .search-container{
+
+        flex-direction: column;
+
+    }
+
+    .search-trips-container, .search-profiles-container{
+
+        width: 100%;
+
+    }
+
+    /*-------------------LOGIN-------------------------*/
+
+    .wrapper{
+
+        min-height: 70vh;
+
+    }
+
+
+    /*-----------------INDEX-------------------*/
+    .first-container h1{
+
+        font-size: 2em;
+
+    }
+
+    .first-container p{
+
+        display: none;
+
+    }
+    .first-container{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 30vh;
+        width: 100%;
+        background-size: cover;
+        
+    }
+
+    .content{
+
+        width: 65vh;
+        height: 45vh;
+
+    }
+
+    .content-container{
+
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        justify-content: center;
+    }
+
+    .content{
+
+        max-width: 300px;
+
+    }
+
+    .content *{
+
+        padding: 2px;
+        border-radius: 5px;
+        background: rgba(0,0,0,.6);
+        
+    }
+
+    .footer-lists{
+
+        justify-content: center;
+        font-size: 0.7em;
+    }
+
+    .copy{
+
+        font-size: 0.7em;
+
+    }
+
+    .fourth-container{
+
+        margin-bottom: 60px;
+
+    }
+
+
+
+}
+

@@ -1,0 +1,55 @@
+.trips-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-auto-rows: auto;
+    grid-gap: 30px;
+}
+
+.trip{
+
+    width: 100%;
+    height: 60vh;
+    margin: auto;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    text-decoration: none;
+    padding: 20px;
+    
+}
+
+.trip h1{
+
+    padding: 6px;
+    border-radius: 5px;
+    background: rgba(0,0,0,.5);
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.buttons a{
+
+    background: rgba(0,0,0,.4) !important;
+
+}
+
+.no-trips{
+
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: rgba(0,0,0,.3);
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
